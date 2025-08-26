@@ -1,9 +1,9 @@
-# 🚀 PROYECTO CLEVER IDEAS - SISTEMA DE LLAMADAS AUTOMÁTICAS CON IA
+#  PROYECTO CLEVER IDEAS - SISTEMA DE LLAMADAS AUTOMÁTICAS CON IA
 ## Documentación Técnica Completa para Entrega de Proyecto
 
 ---
 
-## 📋 RESUMEN EJECUTIVO
+##  RESUMEN EJECUTIVO
 
 ### Descripción del Proyecto
 Este proyecto implementa un **sistema completo de llamadas automáticas** que integra múltiples tecnologías de IA para generar leads y agendar demos de manera completamente automatizada. El sistema detecta el idioma del prospecto, realiza investigación automática de la empresa, y ejecuta llamadas personalizadas con agentes virtuales especializados.
@@ -29,7 +29,7 @@ Este proyecto implementa un **sistema completo de llamadas automáticas** que in
 
 ### Documentos Principales
 
-#### 1. 📊 [DOCUMENTACION_TECNICA_SISTEMA_CLEVER_VAPI.md](./DOCUMENTACION_TECNICA_SISTEMA_CLEVER_VAPI.md)
+#### 1.  [DOCUMENTACION_TECNICA_SISTEMA_CLEVER_VAPI.md](./DOCUMENTACION_TECNICA_SISTEMA_CLEVER_VAPI.md)
 **Documento principal del sistema**
 - Arquitectura completa del sistema
 - Configuración detallada de agentes virtuales (Diego y Natalia)
@@ -39,7 +39,7 @@ Este proyecto implementa un **sistema completo de llamadas automáticas** que in
 - Manual de despliegue completo
 - Troubleshooting y mantenimiento
 
-#### 2. 🌐 [DOCUMENTACION_FORMULARIO_WEB.md](./DOCUMENTACION_FORMULARIO_WEB.md) 
+#### 2.  [DOCUMENTACION_FORMULARIO_WEB.md](./DOCUMENTACION_FORMULARIO_WEB.md) 
 **Frontend y captura de leads**
 - Arquitectura del formulario HTML/CSS/JavaScript
 - Sistema de validaciones en tiempo real
@@ -48,7 +48,7 @@ Este proyecto implementa un **sistema completo de llamadas automáticas** que in
 - Configuración visual y animaciones
 - Funcionalidades avanzadas y responsive design
 
-#### 3. 🔧 [DOCUMENTACION_HERRAMIENTAS_FUNCIONES.md](./DOCUMENTACION_HERRAMIENTAS_FUNCIONES.md)
+#### 3.  [DOCUMENTACION_HERRAMIENTAS_FUNCIONES.md](./DOCUMENTACION_HERRAMIENTAS_FUNCIONES.md)
 **Tools y webhooks personalizados**
 - Herramientas de Diego (send_follow_up_info, endCall)
 - Herramientas de Natalia (schedule_demo, validate_email, send_confirmation, endCall)
@@ -56,7 +56,7 @@ Este proyecto implementa un **sistema completo de llamadas automáticas** que in
 - Manejo de errores y recuperación
 - Métricas y monitoreo de herramientas
 
-#### 4. 📋 [Archivos de Configuración]
+#### 4.  [Archivos de Configuración]
 - `clever_agent.json` - Configuración de agentes para VAPI
 - `index.html` - Formulario web completo con funcionalidades
 - `[CLEVER] Agent-Web Call_Outbound.json` - Workflow de n8n
@@ -64,7 +64,7 @@ Este proyecto implementa un **sistema completo de llamadas automáticas** que in
 
 ---
 
-## 🎯 FLUJO COMPLETO DEL SISTEMA
+##  FLUJO COMPLETO DEL SISTEMA
 
 ### 1. Captura de Lead (Formulario Web)
 ```
@@ -88,7 +88,7 @@ Langfuse registra métricas → Dashboard de performance → Reportes de convers
 
 ---
 
-## 🏗️ ARQUITECTURA TÉCNICA
+##  ARQUITECTURA TÉCNICA
 
 ### Diagrama de Flujo Principal
 ```
@@ -127,7 +127,7 @@ Langfuse registra métricas → Dashboard de performance → Reportes de convers
 
 ---
 
-## 🛠️ CONFIGURACIÓN Y DESPLIEGUE
+##  CONFIGURACIÓN Y DESPLIEGUE
 
 ### Prerrequisitos del Sistema
 ```bash
@@ -155,7 +155,7 @@ webhook_url=https://workflows.cleverideas.com.mx/webhook/form-web
 
 ---
 
-## 📊 MÉTRICAS Y KPIs
+##  MÉTRICAS Y KPIs
 
 ### Métricas de Performance
 - **Form Completion Rate**: % de formularios completados vs iniciados
@@ -174,7 +174,7 @@ webhook_url=https://workflows.cleverideas.com.mx/webhook/form-web
 
 ---
 
-## 🔒 SEGURIDAD Y COMPLIANCE
+##  SEGURIDAD Y COMPLIANCE
 
 ### Medidas de Seguridad
 - **API Keys**: Almacenadas de forma segura en variables de entorno
@@ -190,7 +190,7 @@ webhook_url=https://workflows.cleverideas.com.mx/webhook/form-web
 
 ---
 
-## 🚀 FUNCIONALIDADES DESTACADAS
+##  FUNCIONALIDADES DESTACADAS
 
 ### Inteligencia Artificial Avanzada
 - **Detección de Idioma**: Automática según formulario
@@ -212,7 +212,7 @@ webhook_url=https://workflows.cleverideas.com.mx/webhook/form-web
 
 ---
 
-## 📞 CASOS DE USO PRINCIPALES
+##  CASOS DE USO PRINCIPALES
 
 ### 1. Lead Qualification Automático
 - Prospecto llena formulario → Diego califica necesidades → Transferencia a Natalia
@@ -228,7 +228,7 @@ webhook_url=https://workflows.cleverideas.com.mx/webhook/form-web
 
 ---
 
-## 🔧 MANTENIMIENTO Y SOPORTE
+##  MANTENIMIENTO Y SOPORTE
 
 ### Monitoreo Regular
 ```bash
@@ -284,17 +284,17 @@ cp /root/.n8n/config.json backup_config.json
 ## 👥 EQUIPO Y CONTACTOS
 
 ### Desarrollado por
-**Clever IDEAS** - Líder en telecomunicaciones en la nube y transformación digital empresarial
+**Darig Samuel Rosales** - Arquitecto de Soluciones Empresariales con IA
 
 ### Soporte Técnico
-- **Email**: soporte@cleverideas.com.mx
-- **URL Base**: https://workflows.cleverideas.com.mx
+- **Email**: darig.soporte@gmail.com
+- **URL Base**: https://www.linkedin.com/in/darig-rosales/
 - **Documentación**: Este repositorio de documentación técnica
 
 ### Versión del Sistema
 - **Versión**: 1.0.0
-- **Fecha de Entrega**: Enero 2025
-- **Última Actualización**: Enero 2025
+- **Fecha de Entrega**: Agosto 2025
+- **Última Actualización**: Agosto 2025
 
 ---
 
@@ -316,30 +316,5 @@ cp /root/.n8n/config.json backup_config.json
 - [x] Esquemas de validación
 - [x] Variables de entorno documentadas
 
-### ✅ Testing y Validación
-- [x] Flujo completo probado
-- [x] Validaciones de formulario
-- [x] Integración VAPI funcionando
-- [x] Herramientas personalizadas operativas
-- [x] Analytics configurado
 
-### ✅ Monitoreo y Métricas
-- [x] Langfuse configurado
-- [x] Métricas de performance definidas
-- [x] Sistema de alertas implementado
-- [x] Logs estructurados
-
----
-
-## 🎉 CONCLUSIÓN
-
-Este sistema representa una **solución completa de automatización de ventas** que combina las mejores tecnologías de IA disponibles para crear una experiencia conversacional natural y efectiva. 
-
-La arquitectura modular permite escalabilidad y mantenimiento sencillo, mientras que la documentación técnica detallada asegura que el sistema pueda ser operado, mantenido y mejorado de manera continua.
-
-El proyecto está **listo para producción** y completamente documentado para su entrega y operación exitosa.
-
----
-
-*Documentación generada por el Sistema de IA Técnica de Clever IDEAS*  
-*Enero 2025 - Versión 1.0.0*
+*Agosto 2025 - Versión 1.0.0*
